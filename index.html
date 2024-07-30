@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Store Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shopping-cart"></i> YumYield Grocery </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#product">product</a>
+            <a href="#about">about</a>
+            <a href="#review">review</a>
+            <a href="#blog">blog</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="login-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <!-- shopping cart -->
+
+        <div class="shopping-cart">
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="cart1.jpg" alt="">
+                <div class="content">
+                    <h3>side dish</h3>
+                    <span class="price">Rs.14.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="cart2.jpg" alt="">
+                <div class="content">
+                    <h3>side dish</h3>
+                    <span class="price">Rs.15.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="cart3.png" alt="">
+                <div class="content">
+                    <h3>side dish</h3>
+                    <span class="price">Rs.14.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="cart4.jpg" alt="">
+                <div class="content">
+                    <h3>side dish</h3>
+                    <span class="price">Rs.18.99</span>
+                </div>
+            </div>
+            <h3 class="total"> total: <span> Rs.56.89</span></h3>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <!-- end -->
+
+        <!-- login -->
+
+        <form action="" class="login-form">
+
+            <h3>login form</h3>
+
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <a href="#" class="btn"> login </a>
+
+        </form>
+
+    </header>
+
+    <!-- end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>buy <span> yumyield recomended </span> products online </h3>
+            <a href="#" class="btn"> get yours now </a>
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- banner -->
+
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="banner1.jpeg" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>Vegetables</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="banner2.jpeg" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>fruits</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="banner3.jpeg" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>assorted</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+
+    </section>
+
+   
+
+    <!-- end -->
+
+    <!-- product -->
+
+    
+    <section class="product" id="product">
+
+        <h1 class="heading"> our <span>products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.esanshar.com/image/cache/catalog/Seller_94/Kissan/KHR4-20190602135510-1100x1100.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>kisan fresh tomato ketchup</h3>
+                    <h2><div class ="quantity">200g</div></h2>
+                    <div class="price"> BigBasket Price- Rs.65 Zepto price- Rs.65</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h2><div class ="Ingredients">Energy (kcal) 295,
+                            Sugar(g) 8.18,
+                            Fiber(g) 21.52,
+                            Total Fat(g) 0.86,
+                            Saturated Fat(g) 0.02,
+                            Carbohydrate(g) 57.8,
+                            Protein(g) 3.48,
+                            Sodium(g) 2.32</div></h2>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="data:image/jpeg;base64,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" alt="">
+                </div>
+                <div class="content">
+                    <h3>Aavin Badam Milkshake</h3>
+                    <h2><div class ="quantity">170ml</div></h2>
+                    <div class="price">BigBasket Price- Rs.50  Zepto price- Rs.54</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <h2><div class ="Ingredients">Energy (kcal) 93.3,
+                            Total Carbohydrates (g) 13.7,
+                            Lactose (g) 5.0,
+                            Sucrose (g) 8.7,
+                            Proteins (g) 2.9,
+                            Total Fat (g) 3.0,
+                            Minerals (Calcium) (mg) 65</div></h2>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://th.bing.com/th/id/OIP.8UpXhs-fpA0pcpJaAICYrQHaHa?rs=1&pid=ImgDetMain" alt="">
+                </div>
+                <div class="content">
+                    <h3>Britannia Multigrain Bread</h3>
+                    <h2><div class ="quantity">400g</div></h2>
+                    <div class="price">BigBasket Price- Rs.50 Zepto price- Rs.60</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <h2><div class ="Ingredients"></div>Energy (kacal) 265,
+                            Carbohydrate (g) 47,
+                            Sugars (g) 1.4,
+                            Dietary Fibre (g) 6.5,
+                            Protein (g) 9.6,
+                            Fat (g) 4.3</h2>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.vrindasupermart.in/wp-content/uploads/2021/08/306926-2_4-amul-homogenised-toned-milk-e1628691620898.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Amul Moti - Homogenised Toned Milk Combo</h3>
+                    <h2><div class ="quantity">400ml</div></h2>
+                    <div class="price">BigBasket Price- Rs.64 Zepto price- Rs.60</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <h2><div class ="Ingredients">Energy (kcal) 61,
+                            Total Fat (g) 3.0,
+                            Saturated Fat (g)1.9,
+                            Carbohydrate (g) 5,
+                            Protein (g) 3.5,
+                            Calcium (g) 150,
+                            Vitamin A (mcg) 75,
+                            Vitamin D (mcg) 0.5</div></h2>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.magnikart.com/wp-content/uploads/2022/11/40091018_9-cadbury-fuse-chocolate-bar.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cadbury Chocolate Bar - Fuse </h3>
+                    <h2><div class ="quantity">24g</div></h2>
+                    <div class="price">BigBasket Price- Rs.70 Zepto price- Rs.60</div>
+                    <h2><div class ="Ingredients"></div></h2>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h2><div class ="Ingredients">Sugars – 44.2g,
+                            Total fat – 33.1g,
+                            Protein – 7.9g,
+                            Carbohydrate – 54.3g,
+                            Energy – 540kcal</div></h2>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://cdn.zeptonow.com/production/tr:w-250,ar-1021-1021,pr-true,f-auto,q-80/cms/product_variant/b60f4fde-bf9e-4447-b5c3-5eefe2dd6639.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Namaskaram Banana Chips Original Style Salted</h3>
+                    <h2><div class ="quantity">400g</div></h2>
+                    <div class="price">BigBasket Price- Rs.95 Zepto price- Rs.84</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <h2><div class ="Ingredients">Total Fat – 9g,
+                            Protein – 1g,
+                            Sodium – 66mg,
+                            Dietary Fiber – 2g,
+                            Calories – 154,  
+                            Carbohydrate – 16g</div></h2>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://i5.walmartimages.ca/images/Enlarge/306/470/6000199306470.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Haldiram's Moong Dal</h3>
+                    <h2><div class ="quantity">150g</div></h2>
+                    <div class="price">BigBasket Price- Rs.50 Zepto price- Rs.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <h2><div class ="Ingredients">Protein – 9.2g,
+                            Carbohydrates – 51.6g,
+                            Fat – 2.01g,
+                            Cholesterol – not detected,
+                            Added Sugar – 3.7g,
+                            Energy – 262kcal</div></h2>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.bigbasket.com/media/uploads/p/m/100022493_2-haldirams-namkeen-ratlami-sev.jpg?tr=w-1920,q=80" alt="">
+                </div>
+                <div class="content">
+                    <h3>Haldiram's Namkeen - Ratlami Sev</h3>
+                    <h2><div class ="quantity">150g</div></h2>
+                    <div class="price">BigBasket Price- Rs.30 Zepto price- Rs.45</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <h2><div class ="Ingredients">Protein – 13.42g,
+                            Carbohydrate – 38.76g,
+                            Fat – 42.04g,
+                            Dietary Fiber – 6.22g,
+                            Energy – 599kcal
+                            </div></h2>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.bigbasket.com/media/uploads/p/l/40306804_1-everyday-kulcha-bread.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Everyday Kulcha Bread</h3>
+                    <h2><div class ="quantity">250g</div></h2>
+                    <div class="price">BigBasket Price- Rs.29 Zepto price- Rs.40</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <h2><div class ="Ingredients"></div>Carbohydrates – 46.50g,
+                            Sugars – 2.00g,
+                            Fat – 4.50g,
+                            Proteins – 8.5g,
+                            Fibre – 2.8g,
+                            Energy – 268kcal
+                            </h2>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.bigbasket.com/media/uploads/p/l/100004426_2-mdh-masala-chana.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Masala - Chana Masala</h3>
+                    <h2><div class ="quantity">100g</div></h2>
+                    <div class="price">BigBasket Price- Rs.80 Zepto price- Rs.78</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <h2><div class ="Ingredients">Energy 386kcal,
+                            Protein 11g,
+                            Carbohydrate 60.3g,
+                            Sugar 9.4g,
+                            Fat 11.2g
+                            </div></h2>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.bigbasket.com/media/uploads/p/l/270536-2_2-chings-secret-green-chilli-sauce.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Chings Secret Green Chilli Sauce</h3>
+                    <h2><div class ="quantity">190g</div></h2>
+                    <div class="price">BigBasket Price- Rs.50 Zepto price- Rs.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <h2><div class ="Ingredients">Energy 44.2kcal,
+                            Protein 0.2g,
+                            Total Fat 0.2g,
+                            Carbohydrate 10.4g,
+                            Sugar 6.6g,
+                            Sodium 1803mg
+                            </div></h2>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.bigbasket.com/media/uploads/p/m/40172830_7-bingo-mad-angles-chips-very-peri-peri.jpg?tr=w-1920,q=80" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bingo Mad Angles Chips - Very Peri Peri</h3>
+                    <h2><div class ="quantity">117g</div></h2>
+                    <div class="price">BigBasket Price- Rs.50 Zepto price- Rs.45</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <h2><div class ="Ingredients">Energy (kcal) 549,
+                            Protein (g) 6.3,
+                            Carbohydrate (g) 57.1,
+                            Sugar (g) 1.8,
+                            Trans Fat (g) 0.1,
+                            Fat (g) 32.8,
+                            Saturated Fat (g) 15.1,
+                            Sodium (mg) 852.0
+                            </div></h2>
+                    </div>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-eye"></i>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about </span> us </h1>
+
+        <div class="row">
+
+            <div class="content">
+                <h3>we mention food labels to every product for our costumers to make a wiser choise</h3>
+                <div class="divider"></div>
+                <p>We aim to provide our costumers a grocery shoping website, where users can compare the product price and review ingredients from different eCommerce websites.</p>
+                <p>Our website provides wiser options with ingredients being mentioned.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="image">
+                <img src="about1.jpeg" alt="">
+            </div>
+
+            <div class="image">
+                <img src="about2.jpeg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- end -->
+
+    <!-- review -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> client's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+
+                    <p>Overall, your website is a solid foundation that effectively communicates your brand and offerings. As you continue to develop and refine your online presence, consider adding more engaging content, such as blog posts or case studies, to keep visitors coming back.</p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="https://starsunfolded.com/wp-content/uploads/2023/09/Cricketer-Mahika-Gaur-1.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Mahika Jain</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+                    
+                    <p>The design is clean and modern, with a user-friendly layout that guides visitors through the content seamlessly. The use of images and concise text helps convey your message clearly. </p>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="https://i1.rgstatic.net/ii/profile.image/1067775015542784-1631588810007_Q512/Mahika-Khanna.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Preksha Mehta</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- blog -->
+
+    <section class="blog" id="blog">
+
+        <h1 class="heading"> our <span> blog</span> <p>Sip Your <span>Way to Summer</span> Bliss</p></h1>
+        
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.eatthismuch.com/site_media/img/37604_elm333_9cdd0ccb-b391-4448-ba48-c75dae1870a1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                    <h3>healthy mango shake to try</h3>
+                    <p>Ingredients: 1 ripe mango, peeled and chopped, 1 cup of low-fat yogurt or almond milk (for a dairy-free option), 1/2 cup of ice cubes, 1 tablespoon of honey or maple syrup (optional, depending on the sweetness of the mango), 
+                        
+                    <p>Instructions:
+                        Place the chopped mango, yogurt or almond milk, ice cubes, and honey or maple syrup (if using) in a blender.
+                        Blend until smooth and creamy. If the shake is too thick, you can add a little more yogurt or almond milk to reach your desired consistency.
+                        Taste the shake and adjust sweetness if needed by adding more honey or maple syrup.
+                        If you like, you can add a pinch of ground cardamom or cinnamon for extra flavor.
+                        Pour the mango shake into glasses and serve immediately.
+                        You can garnish with a slice of mango or a sprinkle of ground cinnamon on top for presentation.</p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://www.walderwellness.com/wp-content/uploads/2018/08/Summer-Salad-With-Corn-Strawberries-Avocado-Walder-Wellness-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                    <h3>Salad with Corn, Strawberries & Avocado to try</h3>
+                    <p>Ingredients:
+
+                        2 ears of corn, husked,
+                        1 cup of strawberries, sliced,
+                        1 ripe avocado, diced,
+                        4 cups of mixed salad greens (such as spinach, arugula, or lettuce),
+                        1/4 cup of crumbled cheese,
+                        1/4 cup of chopped fresh basil or mint leaves,
+                        2 tablespoons of extra virgin olive oil,
+                        1 tablespoon of balsamic vinegar,
+                        Salt and pepper to taste.</p>
+                        
+                       <p>Instructions:  
+                        Cook the corn: Bring a large pot of water to a boil. Add the corn and cook for about 5-7 minutes, or until tender. Remove the corn from the water and let it cool slightly. Once cooled, use a knife to carefully cut the kernels off the cob.
+                        In a salad bowl, combine the cooked corn kernels, sliced strawberries, diced avocado, mixed salad greens, crumbled cheese, and chopped basil or mint leaves.
+                        Whisk together the extra virgin olive oil and balsamic vinegar to make the dressing. Season with salt and pepper to taste.
+                        Serve the salad immediately as light lunch.</p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://sweetphi.com/wp-content/uploads/2018/03/Cucumber-limeade-chia-seeds-recipe-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                    <h3>cucumber limeade chia seed drink to try</h3>
+                    <p>Ingredients:
+
+                        1 medium cucumber, peeled and diced,
+                        Juice of 1-2 limes,
+                        2 cups of water,
+                        1 1/2 tablespoons of chia seeds,
+                        2-3 tablespoons of honey or maple syrup (adjust to taste)
+                        Ice cubes,
+                        Fresh mint leaves for garnishing.</p>
+                        <p>Instructions:
+                        
+                        In a blender, combine the diced cucumber, lime juice, and water. Blend until smooth.
+                        
+                        Pour the cucumber-lime mixture through a fine mesh sieve or cheesecloth into a large pitcher to strain out the pulp. You can press down on the pulp with a spoon to extract more liquid.
+                        
+                        Stir in the chia seeds and honey or maple syrup until well combined.
+                        
+                        Cover the pitcher and refrigerate the drink for at least 1 hour, or until the chia seeds have expanded and the drink is chilled.
+                        
+                        Before serving, stir the drink well to distribute the chia seeds evenly.
+                        
+                        Serve the cucumber limeade chia seed drink over ice cubes if desired, and garnish with fresh mint leaves for extra freshness and flavor.</p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://consciouslifenews.com/wp-content/uploads/2020/01/staying-healthy.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                    <h3>6 healthy eating tips to fuel your day</h3>
+                    <p>1. Start your day with breakfast: regular breakfast consumption is associated with stronger cognitive performance and higher quality of life. Avoid processed breakfast cereals with added sugars.</p> 
+                    <p>2. Choose your cooking materials wisely: Cooking with vegetable oils and margarine can load your foods with unhealthy trans fats and saturated fats, raising cholesterol, so use them in moderation.</p>
+                    <p>3. Read the label: Reading the labels on packaged foods is a step toward conscious consumption and aligning your habits with your dietary objectives. Pay attention to the nutritional value of all packaged foods, especially those advertised as healthy alternatives.</p>
+                    <p>4. Change your snacking: Try to fill your pantry and fridge with nutrient-dense, healthy options like nuts, plain yogurt, and fresh fruits and vegetables to curb midday hunger.</p>
+                    <p>5. Practice mindful eating: When you eat, focus on the sensory experience, observe how food makes you feel, and practice self-compassion. It can help you develop a better relationship with food and reduce stress. </p>
+                    <p>6. Eat when you’re hungry: Intuitive eating is a way of looking at food that embraces eating when your internal cues prompt you to. It’s a great way to build habits that serve your specific needs.</p>
+                    <p></p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> contact <span> now </span> </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="contact.jpeg" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="first name">
+                    <input type="text" placeholder="last name">
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" placeholder="email address">
+                    <input type="number" placeholder="phone">
+                </div>
+
+                <textarea placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <p>At your service. Follow us on instagram and Facebook to know more about us.</p>
+                <div class="share">
+                    <a href="#" aria-label="facebook"class="fab fa-facebook-f"></a>
+                    <a href="#" aria-label="twitter" class="fab fa-twitter"></a>
+                    <a href="#" aria-label="instagram" class="fab fa-instagram"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>9113318361</p>
+                <a href="#" class="link">Priyanka30111208@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>localization</h3>
+                <p> Ramaiah University of Applied Sciences <br>
+                MSR Nagar, Near Ramaiah Hospital, <br>
+                Bengaluru, Karnataka.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span> Priyanka & Gouri </span> all rights reserved!</div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
